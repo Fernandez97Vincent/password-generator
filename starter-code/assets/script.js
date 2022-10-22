@@ -1,0 +1,17 @@
+const lowerCaseCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+const upperCaseCharacters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+// symbols
+const specialCharacters = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
+
+// numbers
+const numberCharacters = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const generateBtn = document.getElementById('submit-pass');
+const submitForm = document.getElementById('generate-pass');
+const passwordInput = document.getElementById('pass-text');
+const inclUpper = document.getElementById('inclUppercase');
+const inclLower = document.getElementById('inclLowercase');
+const inclNumbers = document.getElementById('inclNumbers');
+const inclSymbols = document.getElementById('inclSymbols');

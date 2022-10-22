@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.password-box {
+    background-color: rgb(26, 26, 25);
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.main-container {
+    background-color: rgb(26, 26, 25);
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    width: 25rem;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 3rem;
+}
+
+#pass-text {
+    margin-bottom: 20px;
+}
+
+
+.submit-pass {
+    background-color: rgb(136, 236, 136);
+    border: none;
+    width: 100%;
+    height: 3rem;
+}
+
+/* .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px orange solid;
+    margin: 0 auto;
+} */
